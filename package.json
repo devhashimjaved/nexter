@@ -4,11 +4,19 @@
   "description": "",
   "main": "index.js",
   "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "concat": "^1.0.3",
     "node-sass": "^9.0.0"
   },
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss css/style.css"
+    
+    "compile:sass": "node-sass sass/main.scss css/style.comp.css"
+   
+
   },
   "author": "Hashim",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "postcss-cli": "^10.1.0"
+  }
 }
